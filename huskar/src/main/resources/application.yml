@@ -1,0 +1,16 @@
+server:
+  port: 1229
+
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1226/eureka/
+
+
+spring:
+  application:
+    name: hskar
